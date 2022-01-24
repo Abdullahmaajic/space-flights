@@ -1,0 +1,68 @@
+img {
+  height: 150px;
+  width: 100%;
+}
+.flight {
+  padding: 10px;
+}
+.main {
+  margin: 20px;
+  background-color: #ededed;
+  padding: 20px;
+  overflow-x: hidden;
+}
+.btn {
+  margin: 10px;
+  height: 30px;
+}
+.year {
+  text-align: center;
+  text-decoration: underline;
+}
+.year-btn {
+  margin: 0 8px;
+}
+.card {
+  border-radius: 5px;
+}
+.card:hover {
+  border: 1px solid silver;
+}
+.head1 {
+  color: blue;
+}
+.dev-name h2 {
+  font-weight: 600;
+}
+
+/* media query */
+
+/* min-width 320px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .year-btn {
+    margin: 0 37px;
+  }
+  .btn {
+    margin: 15px 7px;
+    height: 30px;
+    padding: 0px 15px;
+  }
+  .dev-name h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+/* min-width 768px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .btn {
+    margin: 15px 25px;
+    height: 30px;
+    padding: 0px 35px;
+    font-size: 18px;
+  }
+  h5,
+  h6 {
+    font-size: 25px;
+  }
+}
